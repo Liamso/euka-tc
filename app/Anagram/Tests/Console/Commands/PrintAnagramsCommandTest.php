@@ -11,6 +11,6 @@ class PrintAnagramsCommandTest extends TestCase
     {
         $this->artisan('anagrams:print test dictionary')
             ->expectsOutput('Found 2 anagrams.')
-            ->expectsOutput('test, sets');
+            ->expectsOutput('stet, tets');
     }
 }
